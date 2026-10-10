@@ -1,10 +1,10 @@
-import { Code2, Database, FileText, Layers3 } from 'lucide-react';
+import { Code2, FileText, Layers3, MessageCircle, Database} from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 export type Project = {
   number: string;
   title: string;
-  category: 'Web Development' | 'AI / Python' | 'Data Analysis';
+  category: 'Web Development' | 'AI / Python' | 'Data Analysis' | 'Full Stack Development';
   description: string;
   stack: string[];
   icon: LucideIcon;
@@ -23,36 +23,56 @@ export const projects: Project[] = [
     stack: ['React', 'TypeScript', 'JavaScript', 'SCSS'],
     icon: Layers3,
     accent: 'violet',
-    status: 'Project work',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Management-System-for-Company/tree/main/vite-project',
   },
+  
+  
   {
     number: '02',
-    title: 'AI Research Paper Summarizer',
-    category: 'AI / Python',
-    description: 'A Flask-based project concept for summarizing research papers from PDFs, using Python PDF extraction and an AI API integration.',
-    stack: ['Python', 'Flask', 'PyPDF2', 'AI API'],
-    icon: FileText,
-    accent: 'blue',
-    status: 'Project work',
-  },
-  {
-    number: '03',
-    title: 'Social Media & Academic Impact',
-    category: 'Data Analysis',
-    description: 'An academic data-analysis project exploring social media usage and its relationship to academic impact, with reporting and visualization.',
-    stack: ['Data Analysis', 'Excel', 'Visualization'],
-    icon: Database,
-    accent: 'cyan',
-    status: 'Academic project',
-  },
-  {
-    number: '04',
     title: 'Blockchain Supply Chain DApp',
-    category: 'Web Development',
+    category: 'Full Stack Development',
     description: 'A college project exploring blockchain-based supply-chain tracking with Solidity smart contracts and a web interface.',
     stack: ['Solidity', 'React', 'Truffle', 'Ganache'],
     icon: Code2,
     accent: 'violet',
-    status: 'College project',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/BWU-PROJECT-',
+
   },
-];
+  {
+    number: '03',
+    title: 'Responsive Navigation Bar',
+    category: 'Web Development',
+    description: 'An interactive desktop-style portfolio built with React and Vite, featuring a macOS-inspired navigation bar, interactive dock, draggable windows, GitHub integration, notes, resume viewer, Spotify interface, and command-line emulator.',
+    stack: ['React', 'JavaScript', 'Vite', 'SCSS'],
+    icon: Code2,
+    accent: 'cyan',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Navbar-',
+  },
+
+  {
+    number: '04',
+    title: 'AI Chat Bot',
+    category: 'Full Stack Development',
+    description: 'An interactive chatbot application designed to provide conversational responses through a user-friendly interface, demonstrating frontend development and chatbot functionality.',
+    stack: ['JavaScript', 'HTML', 'CSS', 'AI / Chatbot'],
+    icon: MessageCircle,
+    accent: 'cyan',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Chat-Bot',
+  },
+
+  {
+    number: '05',
+    title: 'Instagram Clone',
+    category: 'Full Stack Development',
+    description: 'A social media web application inspired by Instagram, featuring user authentication, image sharing, and an interactive interface for connecting with other users.',
+    stack: ['React', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
+    icon: Database,
+    accent: 'violet',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Instagram-Clone-',
+  },
+]; 
