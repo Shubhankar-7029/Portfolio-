@@ -54,6 +54,18 @@ export const projects: Project[] = [
 
   {
     number: '04',
+    title: 'Company Management System',
+    category: 'Full Stack Development',
+    description: 'A company management application designed to organize company information and streamline management operations through a user-friendly interface.',
+    stack: ['React', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
+    icon: Code2,
+    accent: 'cyan',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Management-System-for-Company',
+},
+
+  {
+    number: '05',
     title: 'AI Chat Bot',
     category: 'Full Stack Development',
     description: 'An interactive chatbot application designed to provide conversational responses through a user-friendly interface, demonstrating frontend development and chatbot functionality.',
@@ -65,7 +77,7 @@ export const projects: Project[] = [
   },
 
   {
-    number: '05',
+    number: '06',
     title: 'Instagram Clone',
     category: 'Full Stack Development',
     description: 'A social media web application inspired by Instagram, featuring user authentication, image sharing, and an interactive interface for connecting with other users.',
