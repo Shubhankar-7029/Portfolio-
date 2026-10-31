@@ -18,7 +18,7 @@ export const projects: Project[] = [
   
   {
     
-  number: '01',
+  number: '0',
   title: 'NexaChain AI Investment & Referral Management Platform',
   category: 'Full Stack Development',
   description: 'A full-stack investment and referral management platform featuring user authentication, investment tracking, referral management, and an admin dashboard for managing fund requests.',
@@ -90,5 +90,15 @@ export const projects: Project[] = [
     link: 'https://github.com/Shubhankar-7029/Instagram-Clone-',
   },
 
-  
+  {
+    number: '07',
+    title: 'eBook Management System',
+    category: 'Web Development',
+    description: 'A web application project involving React components, interface work, and login UI development.',
+    stack: ['React', 'TypeScript', 'JavaScript', 'SCSS'],
+    icon: Layers3,
+    accent: 'violet',
+    status: 'Project Completed',
+    link: 'https://github.com/Shubhankar-7029/Management-System-for-Company/tree/main/vite-project',
+  },
 ]; 
