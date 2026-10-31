@@ -90,15 +90,5 @@ export const projects: Project[] = [
     link: 'https://github.com/Shubhankar-7029/Instagram-Clone-',
   },
 
-  {
-    number: '07',
-    title: 'eBook Management System',
-    category: 'Web Development',
-    description: 'A web application project involving React components, interface work, and login UI development.',
-    stack: ['React', 'TypeScript', 'JavaScript', 'SCSS'],
-    icon: Layers3,
-    accent: 'violet',
-    status: 'Project Completed',
-    link: 'https://github.com/Shubhankar-7029/Management-System-for-Company/tree/main/vite-project',
-  },
+  
 ]; 
